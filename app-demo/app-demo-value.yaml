@@ -5,7 +5,7 @@
 replicaCount: 4
 
 image:
-  repository: https://harbor.huydevops.com/harbor/projects/3/repositories/cicd-app
+  repository: https://harbor.huydevops.com/cicd-demo/cicd-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: v1.13
